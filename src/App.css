@@ -208,6 +208,10 @@ ul.ingredients-list > li {
   border: 2px solid rgb(51, 51, 51);
 }
 
+.clear-btn:active{
+  scale: 0.95;
+}
+
 @keyframes bounce {
   0%,
   80%,

@@ -42,7 +42,7 @@ const Main = () => {
                     aria-label="Add ingredient"
                     name="ingredient"
                 />
-                <button type="submit">Add ingredient</button>
+                <button aria-label="add ingrident" type="submit">Add ingredient</button>
             </form>
             
             {ingredients.length > 0 &&
@@ -67,7 +67,7 @@ const Main = () => {
             {recipe && <ClaudeRecipe recipe={recipe} />}
 
             {(ingredients.length > 0 || recipe) && (
-                <button onClick={clearAll} className="clear-btn">
+                <button aria-label="clear button" onClick={clearAll} className="clear-btn">
                     Clear All
                 </button>
             )}

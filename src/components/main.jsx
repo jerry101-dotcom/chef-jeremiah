@@ -67,7 +67,7 @@ const Main = () => {
             {recipe && <ClaudeRecipe recipe={recipe} />}
 
             {(ingredients.length > 0 || recipe) && (
-                <button onClick={clearAll} className="clear-button">
+                <button onClick={clearAll} className="clear-btn">
                     Clear All
                 </button>
             )}

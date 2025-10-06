@@ -193,6 +193,20 @@ ul.ingredients-list > li {
   animation-delay: -0.16s;
 }
 
+.clear-btn{
+  padding: 0.2em 0.6em;
+  background-color: #ffffff;
+  color: #000000;
+  transition: 0.5s ease-in-out;
+  border: 2px solid rgb(51, 51, 51);
+}
+
+.clear-btn:hover{
+  color: white;
+  background-color: #000000;
+  border: 2px solid rgb(51, 51, 51);
+}
+
 @keyframes bounce {
   0%,
   80%,
